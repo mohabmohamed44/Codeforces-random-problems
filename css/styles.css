@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mooli&family=Raleway&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 * {
     font-family: "Raleway", sans-serif;
     text-align: center;
@@ -57,6 +58,7 @@ h1 {
 .problem-card h2 {
     color: #035e12;
     margin-top: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 .problem-card p {
@@ -69,10 +71,11 @@ h1 {
     display: block;
     color: #333;
     text-decoration: none;
-    margin-top: 10px;
+    margin-top: 13px;
     font-weight: 400;
-    font-size: 20px;
-    transition: 0.1 ms ease-out;
+    font-size: 21px;
+    transition:  100ms ease-in 2s;
+    font-family: "Mooli", sans-serif;
 }
 
 .problem-card a:hover {
@@ -86,7 +89,11 @@ footer {
     font-size: 20px;
     font-weight: 600;
 }
-footer a {
+footer p {
+    font-family: "Poppins", sans-serif;
+}
+
+footer a  {
     text-decoration:none;
     color:#035e12;
 }
