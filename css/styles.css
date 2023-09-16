@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+#input-container {
+    margin-top: 20px;
+}
+
+#handle-input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#generate-btn {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#problem-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.problem-card {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.problem-card h2 {
+    color: #035e12;
+    margin-top: 0;
+}
+
+.problem-card p {
+    color: #0a0707;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.problem-card a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    transition: 0.1 ms ease-out;
+}
+
+.problem-card a:hover {
+    text-decoration: none;
+    color: #0a1ca3;
+}
+
+footer {
+    padding-top: 46px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+footer a {
+    text-decoration:none;
+    color:#035e12;
+}
+footer a ::active {
+    color: #3d4fda;
+}
+@media (max-width: 768px) {
+    .problem-card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .problem-card {
+        width: 100%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .problem-card {
+        width: 45%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .problem-card {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1441px) {
+    .problem-card {
+        width: 20%;
+    }
+}
