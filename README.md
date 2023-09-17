@@ -1,6 +1,6 @@
 # Random Codeforces Problems Generator
 
-This project generates random Codeforces problems to practise on.
+This project generates random Codeforces problems to practice on.
 
 ## Technologies Used
 
@@ -11,7 +11,7 @@ This project generates random Codeforces problems to practise on.
 ## Features
 
 -   Fetches random problems from Codeforces API
--   Displays problem name, index, rating and tags
+-   Displays problem name, index, rating, and tags
 -   Link to view full problem on Codeforces
 -   Responsive design
 
@@ -32,3 +32,7 @@ The source code is available on GitHub:
 ## Author
 
 Created by  [Mohab Mohammed](https://github.com/mohabmohamed44)
+
+## Site 
+Visit (https://mohabmohamed44.github.io/Codeforces-random-problems/)
+Another One (https://cf-rand-problems.netlify.app/)
