@@ -34,5 +34,5 @@ The source code is available on GitHub:
 Created by  [Mohab Mohammed](https://github.com/mohabmohamed44)
 
 ## Site 
-Visit (https://mohabmohamed44.github.io/Codeforces-random-problems/)
-Another One (https://cf-rand-problems.netlify.app/)
+1. Visit (https://mohabmohamed44.github.io/Codeforces-random-problems/)
+2. Another One (https://cf-rand-problems.netlify.app/)
